@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@100;300;600&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff8ee;
+  font-family: "Lobster", cursive;
+}
+
+span,h1 {
+  color: #c44747;
+}
+
+.timer-wrapper {
+  border: 20px solid #c44747;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+}
+
+.header-logo {
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: #c44747;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.buttons button {
+  border: none;
+  border-radius: 30px;
+  padding: 1rem;
+  color: #c44747;
+  background-color: transparent;
+  font-size: 1.4rem;
+  transition: 0.2s linear;
+}
+
+.buttons button:focus {
+  background-color: #c44747;
+  color: #fff;
+}
+
+#back {
+  margin-top: 3rem;
+}
+
